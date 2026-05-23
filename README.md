@@ -4,7 +4,7 @@ CredShield is an AI-powered forensic verification system designed to automatical
 
 ## 📸 Application Preview
 
-![CredShield Dashboard Target](assets/dashboard.png)
+![CredShield Dashboard Target](credshield-ai-main/assets/dashboard.png)
 
 ## 🚀 Features
 * **Forensic Document Parsing:** Extracts raw textual data from certificate uploads using an optimized OCR workflow.
