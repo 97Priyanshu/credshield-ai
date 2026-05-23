@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand: #292929;
+  --color-accent: #FF7A45;
+  --color-muted-bg: #F3F4F6;
+  --color-muted: #6B7280;
+  
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-brand bg-white min-h-screen;
+  }
+}
